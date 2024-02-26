@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Students Details</title>
+    <link rel="stylesheet" href="CSS.css" />
+    <script src="JS.js"></script>
+  </head>
+  <body id="body">
+    <h1 id="title">Students Details</h1>
+    <div id="div_1">
+      <table id="table_1" border="1">
+        <tr>
+          <td>Name</td>
+          <td><input type="text" id="name" /></td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>
+            <input list="std" id="Std" />
+            <datalist id="std">
+              <option value="12th"></option>
+              <option value="Degree"></option>
+              <option value="Emplayer"></option>
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td>Course</td>
+          <td>
+            <input list="Course" id="Co" />
+            <datalist id="Course">
+              <option value="Python"></option>
+              <option value="Java"></option>
+              <option value="JavaScript"></option>
+              <option value="Html"></option>
+              <option value="C++"></option>
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td>Mobile</td>
+          <td><input type="number" id="Mobile" /></td>
+        </tr>
+      </table>
+      <button id="sub" onclick="subm()">Submit</button>
+    </div>
+    <table id="table_2" border="1">
+      <tr id="tr_1">
+        <td>Name</td>
+        <td>Standed</td>
+        <td>Course</td>
+        <td>Email</td>
+        <td>Mobile</td>
+        <td id="red">Delete</td>
+      </tr>
+    </table>
+  </body>
+</html>
